@@ -78,7 +78,7 @@ function ProductPage() {
         <ProductInfo product={product} />
         {/* Placeholder for future features */}
         <div className="quantity-placeholder-section">
-          <p className="quantity-placeholder-text">Quantity: [Placeholder for Quantity Selector]Sophia version</p>
+          <p className="quantity-placeholder-text">Quantity: Many</p>
           <button className="add-to-cart-button">
             Add to Cart
           </button>
