@@ -7,7 +7,7 @@ const product = {
   imageUrl: 'https://placehold.co/400x500/E0F2F7/2C3E50?text=Book+Cover', // Placeholder image URL
   title: 'The Great Software Workflow Guide',
   description: 'A comprehensive guide to mastering efficient software development workflows, including version control, GitHub, build images, and RESTful API design. Learn best practices for modern software engineering.',
-  price: 31.99,
+  price: 0.99,
   currency: '$',
   stock: 36,
 };
@@ -78,7 +78,7 @@ function ProductPage() {
         <ProductInfo product={product} />
         {/* Placeholder for future features */}
         <div className="quantity-placeholder-section">
-          <p className="quantity-placeholder-text">Hello, please work!</p>
+          <p className="quantity-placeholder-text">Hello, please work this time!</p>
           <button className="add-to-cart-button">
             Add to Cart
           </button>
